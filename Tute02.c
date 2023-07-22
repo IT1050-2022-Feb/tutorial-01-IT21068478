@@ -24,6 +24,7 @@ int main ( void ){
 	printf( "Enter the distance : " );
 	scanf ( "%d", &distance );
 	
+	
 	if ( distance <= 30 ){
 		rate = distance * 50.0;
 	}
