@@ -29,7 +29,7 @@ int main ( void ){
 		rate = distance * 50.0;
 	}
 	else
-	    rate = 30 * 60.0 + ( distance - 30 ) * 40.0;
+	    rate = 30 * 50.0 + ( distance - 30 ) * 40.0;
 	    
     printf( "the rate is %.2f\n", rate );
     
