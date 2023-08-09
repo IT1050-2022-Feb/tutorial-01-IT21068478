@@ -4,16 +4,16 @@
 
 #include <stdio.h>
 int main ( void ){
-	int M1, M2;
+	int m1, m2;
 	float avg;
 	
 	printf( "Enter mark 1 : " );
-	scanf ("%d", &M1 );
+	scanf ("%d", &m1 );
 	
 	printf( "Enter mark 2 : " );
-	scanf ("%d", &M2 );
+	scanf ("%d", &m2 );
 	
-	avg = ( M1 + M2 ) / 2.0;
+	avg = ( m1 + m2 ) / 2.0;
 	
 	printf( "The average is %.2f\n", avg );
 	
